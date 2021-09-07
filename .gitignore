@@ -2,6 +2,8 @@
 cmake-build-debug/
 components/executable/cmake-build-debug
 components/engine/cmake-build-debug
+components/engine/vendor/GLAD/cmake-build-debug
+components/engine/vendor/ImGui/cmake-build-debug
 
 # IDE files
 .idea/

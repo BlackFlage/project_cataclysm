@@ -3,10 +3,11 @@
 //
 
 #include <iostream>
+#include <Cataclysm.h>
 
 int main()
 {
     std::cout << "Mamy to\n";
-
+    ctm::print_hello();
     return 0;
 }
