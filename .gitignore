@@ -1,0 +1,7 @@
+# Build directories
+cmake-build-debug/
+components/executable/cmake-build-debug
+components/engine/cmake-build-debug
+
+# IDE files
+.idea/
