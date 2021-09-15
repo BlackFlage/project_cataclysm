@@ -8,5 +8,6 @@
 namespace ctm
 {
     void print_hello();
+    void check_enstatite();
 }
 #endif //CATACLYSM_COMPILER_H

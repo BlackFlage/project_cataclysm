@@ -4,5 +4,7 @@
 #include "Mineral.h"
 class Enstatite : public Mineral
 {
-
+public:
+    Enstatite();
+    void PrintMineral();
 };

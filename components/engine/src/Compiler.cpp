@@ -9,6 +9,8 @@
 #include "Compiler.h"
 #include "spdlog/spdlog.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
+#include "../../executable/src/Mineral.h"
+#include "../../executable/src/Enstatite.h"
 
 namespace ctm
 {
@@ -21,6 +23,10 @@ namespace ctm
         s_core_logger = spdlog::stdout_color_mt("TEST");
 
         s_core_logger->info("DZIAUA");
+    }
+    void check_enstatite(){
+        Enstatite *_mineral = new Enstatite;
+        _mineral->PrintMineral();
     }
 }
 
