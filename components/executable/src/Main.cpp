@@ -9,5 +9,6 @@ int main()
 {
     std::cout << "Mamy to\n";
     ctm::print_hello();
+    ctm::check_enstatite();
     return 0;
 }
