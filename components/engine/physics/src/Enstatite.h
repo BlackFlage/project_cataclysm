@@ -4,10 +4,15 @@
 #ifndef CATACLYSM_ENSTATITE_H
 #define CATACLYSM_ENSTATITE_H
 #include "Mineral.h"
-class Enstatite : public Mineral
+
+namespace ctm
 {
-public:
-    Enstatite();
-    void PrintMineral();
-};
+    class Enstatite : public Mineral
+    {
+    public:
+        Enstatite();
+        void PrintMineral();
+    };
+}
+
 #endif

@@ -5,6 +5,8 @@
 #ifndef CATACLYSM_CATACLYSM_H
 #define CATACLYSM_CATACLYSM_H
 
-#include "src/Compiler.h"
+#include "Application.h"
+#include "Mineral.h"
+#include "Enstatite.h"
 
 #endif //CATACLYSM_CATACLYSM_H
