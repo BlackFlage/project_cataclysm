@@ -25,7 +25,7 @@ namespace ctm
         s_core_logger->info("DZIAUA");
     }
     void check_enstatite(){
-        Enstatite *_mineral = new Enstatite;
+        Mineral *_mineral = new Enstatite;
         _mineral->PrintMineral();
     }
 }

@@ -11,9 +11,9 @@ public:
     virtual double get_mass();
     virtual double get_density();
 protected:
-    std::string c_name;
-    double c_toughness;
-    double c_mass;
-    double c_density;
+    std::string _name;
+    double _toughness;
+    double _mass;
+    double _density;
 };
 #endif
