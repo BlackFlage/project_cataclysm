@@ -1,0 +1,2 @@
+C:\MinGW-8.1.0\bin\ar.exe qc libGRAPHICS.a CMakeFiles/GRAPHICS.dir/src/Application.cpp.obj
+C:\MinGW-8.1.0\bin\ranlib.exe libGRAPHICS.a

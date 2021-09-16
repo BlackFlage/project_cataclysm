@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Building.cpp
+Building.h
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Building.h
+
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Building.h
+
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Enstatite.cpp
+Enstatite.h
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Enstatite.h
+
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Enstatite.h
+Mineral.h
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Mineral.h
+
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Mineral.cpp
+Mineral.h
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Mineral.h
+
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Mineral.h
+iostream
+-
+

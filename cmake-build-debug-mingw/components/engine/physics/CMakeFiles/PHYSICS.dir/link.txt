@@ -1,0 +1,2 @@
+C:\MinGW-8.1.0\bin\ar.exe qc libPHYSICS.a CMakeFiles/PHYSICS.dir/src/Building.cpp.obj CMakeFiles/PHYSICS.dir/src/Enstatite.cpp.obj CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj
+C:\MinGW-8.1.0\bin\ranlib.exe libPHYSICS.a

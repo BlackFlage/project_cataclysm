@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../components/engine/Cataclysm.h
+Application.h
+../components/engine/Application.h
+Mineral.h
+../components/engine/Mineral.h
+Enstatite.h
+../components/engine/Enstatite.h
+
+../components/engine/graphics/src/Application.h
+
+../components/engine/physics/src/Enstatite.h
+Mineral.h
+../components/engine/physics/src/Mineral.h
+
+../components/engine/physics/src/Mineral.h
+iostream
+-
+
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/executable/src/Main.cpp
+iostream
+-
+Cataclysm.h
+-
+
