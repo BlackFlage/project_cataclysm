@@ -8,5 +8,6 @@
 #include "Application.h"
 #include "Mineral.h"
 #include "Enstatite.h"
+#include "Meteorite.h"
 
 #endif //CATACLYSM_CATACLYSM_H

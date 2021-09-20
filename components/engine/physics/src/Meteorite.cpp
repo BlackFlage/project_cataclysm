@@ -13,16 +13,17 @@ namespace ctm{
     }
     bool Meteorite::check_composition(){
         double size = 0.0;
-        for (int i = 0; i <= _composition.size(); i++) {
-            size = size+ _composition[i].first;
+        for (const auto& comp : _composition) {
+            size = size+ comp.first;
         }
         return size == 100.0;
     }
-    Meteorite::Meteorite(std::vector<std::pair<double, Mineral>> a_composition, double a_diameter) {
+    Meteorite::Meteorite(std::vector<std::pair<double, Mineral*>> a_composition, double a_diameter) {
         _composition = a_composition;
         _diameter = a_diameter;
         if(check_composition()){
             set_mass();
+            std::cout <<"Meteoryt ma mase \n" << _mass;
         }
         else{
             std::cout << "Nie udalo sie poprawnie stworzyc meteorytu \n";
@@ -30,8 +31,8 @@ namespace ctm{
     }
     void Meteorite::set_mass(){
         _mass =0.0;
-        for(int i =0; i< _composition.size() ; i++){
-            _mass = _mass + (_composition[i].first * _composition[i].second.get_density() * 4 *
+        for(const auto& comp : _composition){
+            _mass = _mass + (comp.first * comp.second->get_density() * 4 *
                     M_PI * pow(_diameter/2,3))/3;
         }
     }
