@@ -32,7 +32,7 @@ namespace ctm{
     void Meteorite::set_mass(){
         _mass =0.0;
         for(const auto& comp : _composition){
-            _mass = _mass + (comp.first * comp.second->get_density() * 4 *
+            _mass = _mass + (comp.first/100 * comp.second->get_density() * 4 *
                     M_PI * pow(_diameter/2,3))/3;
         }
     }

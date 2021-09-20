@@ -13,8 +13,8 @@ namespace ctm
     }
     Enstatite::Enstatite(){
         _name = "Enstatite";
-        _density = 3.3; // g/cm^3
-        _mass = 1;
+        _density = 3300; // kg/m^3
+        _mass = 1; //kg
         _toughness = 5.5; //Mohs scale
 
     }
