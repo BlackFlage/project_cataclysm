@@ -222,7 +222,7 @@ components/engine/CMakeFiles/ENGINE.dir/all: components/engine/vendor/ImGui/CMak
 
 # Build rule for subdir invocation for target.
 components/engine/CMakeFiles/ENGINE.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 components/engine/CMakeFiles/ENGINE.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : components/engine/CMakeFiles/ENGINE.dir/rule
@@ -271,12 +271,12 @@ components/engine/graphics/CMakeFiles/GRAPHICS.dir/clean:
 components/engine/physics/CMakeFiles/PHYSICS.dir/all:
 	$(MAKE) $(MAKESILENT) -f components\engine\physics\CMakeFiles\PHYSICS.dir\build.make components/engine/physics/CMakeFiles/PHYSICS.dir/depend
 	$(MAKE) $(MAKESILENT) -f components\engine\physics\CMakeFiles\PHYSICS.dir\build.make components/engine/physics/CMakeFiles/PHYSICS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles --progress-num=13,14,15,16 "Built target PHYSICS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles --progress-num=13,14,15,16,17 "Built target PHYSICS"
 .PHONY : components/engine/physics/CMakeFiles/PHYSICS.dir/all
 
 # Build rule for subdir invocation for target.
 components/engine/physics/CMakeFiles/PHYSICS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 components/engine/physics/CMakeFiles/PHYSICS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : components/engine/physics/CMakeFiles/PHYSICS.dir/rule
@@ -356,12 +356,12 @@ components/executable/CMakeFiles/SANDBOX.dir/all: components/engine/vendor/GLAD/
 components/executable/CMakeFiles/SANDBOX.dir/all: components/engine/vendor/ImGui/CMakeFiles/IMGUI.dir/all
 	$(MAKE) $(MAKESILENT) -f components\executable\CMakeFiles\SANDBOX.dir\build.make components/executable/CMakeFiles/SANDBOX.dir/depend
 	$(MAKE) $(MAKESILENT) -f components\executable\CMakeFiles\SANDBOX.dir\build.make components/executable/CMakeFiles/SANDBOX.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles --progress-num=17,18 "Built target SANDBOX"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles --progress-num=18,19 "Built target SANDBOX"
 .PHONY : components/executable/CMakeFiles/SANDBOX.dir/all
 
 # Build rule for subdir invocation for target.
 components/executable/CMakeFiles/SANDBOX.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 components/executable/CMakeFiles/SANDBOX.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : components/executable/CMakeFiles/SANDBOX.dir/rule

@@ -9,22 +9,14 @@
 C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Building.cpp
 Building.h
 C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Building.h
+iostream
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/iostream
 
 C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Building.h
+Material.h
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Material.h
 
-C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Enstatite.cpp
-Enstatite.h
-C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Enstatite.h
-
-C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Enstatite.h
-Mineral.h
-C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Mineral.h
-
-C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Mineral.cpp
-Mineral.h
-C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Mineral.h
-
-C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Mineral.h
-iostream
--
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Material.h
+string
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/string
 

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Building.cpp" "C:/Users/Marcin/CLionProjects/project_cataclysm/cmake-build-debug-mingw/components/engine/physics/CMakeFiles/PHYSICS.dir/src/Building.cpp.obj"
   "C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Enstatite.cpp" "C:/Users/Marcin/CLionProjects/project_cataclysm/cmake-build-debug-mingw/components/engine/physics/CMakeFiles/PHYSICS.dir/src/Enstatite.cpp.obj"
+  "C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Material.cpp" "C:/Users/Marcin/CLionProjects/project_cataclysm/cmake-build-debug-mingw/components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.obj"
   "C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Mineral.cpp" "C:/Users/Marcin/CLionProjects/project_cataclysm/cmake-build-debug-mingw/components/engine/physics/CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
