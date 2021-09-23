@@ -339,6 +339,12 @@
 		<Unit filename="C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Enstatite.h">
 			<Option target="PHYSICS"/>
 		</Unit>
+		<Unit filename="C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Material.cpp">
+			<Option target="PHYSICS"/>
+		</Unit>
+		<Unit filename="C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Material.h">
+			<Option target="PHYSICS"/>
+		</Unit>
 		<Unit filename="C:/Users/Marcin/CLionProjects/project_cataclysm/components/engine/physics/src/Mineral.cpp">
 			<Option target="PHYSICS"/>
 		</Unit>

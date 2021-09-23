@@ -3,7 +3,9 @@
 
 components/executable/CMakeFiles/SANDBOX.dir/src/Main.cpp.obj: ../components/engine/Cataclysm.h
 components/executable/CMakeFiles/SANDBOX.dir/src/Main.cpp.obj: ../components/engine/graphics/src/Application.h
+components/executable/CMakeFiles/SANDBOX.dir/src/Main.cpp.obj: ../components/engine/physics/src/Building.h
 components/executable/CMakeFiles/SANDBOX.dir/src/Main.cpp.obj: ../components/engine/physics/src/Enstatite.h
+components/executable/CMakeFiles/SANDBOX.dir/src/Main.cpp.obj: ../components/engine/physics/src/Material.h
 components/executable/CMakeFiles/SANDBOX.dir/src/Main.cpp.obj: ../components/engine/physics/src/Mineral.h
 components/executable/CMakeFiles/SANDBOX.dir/src/Main.cpp.obj: ../components/executable/src/Main.cpp
 

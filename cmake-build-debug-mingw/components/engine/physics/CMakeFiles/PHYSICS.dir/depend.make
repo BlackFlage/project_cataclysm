@@ -3,10 +3,14 @@
 
 components/engine/physics/CMakeFiles/PHYSICS.dir/src/Building.cpp.obj: ../components/engine/physics/src/Building.cpp
 components/engine/physics/CMakeFiles/PHYSICS.dir/src/Building.cpp.obj: ../components/engine/physics/src/Building.h
+components/engine/physics/CMakeFiles/PHYSICS.dir/src/Building.cpp.obj: ../components/engine/physics/src/Material.h
 
 components/engine/physics/CMakeFiles/PHYSICS.dir/src/Enstatite.cpp.obj: ../components/engine/physics/src/Enstatite.cpp
 components/engine/physics/CMakeFiles/PHYSICS.dir/src/Enstatite.cpp.obj: ../components/engine/physics/src/Enstatite.h
 components/engine/physics/CMakeFiles/PHYSICS.dir/src/Enstatite.cpp.obj: ../components/engine/physics/src/Mineral.h
+
+components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.obj: ../components/engine/physics/src/Material.cpp
+components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.obj: ../components/engine/physics/src/Material.h
 
 components/engine/physics/CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj: ../components/engine/physics/src/Mineral.cpp
 components/engine/physics/CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj: ../components/engine/physics/src/Mineral.h

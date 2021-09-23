@@ -16,9 +16,17 @@ Enstatite.h
 
 ../components/engine/graphics/src/Application.h
 
+../components/engine/physics/src/Building.h
+Material.h
+../components/engine/physics/src/Material.h
+
 ../components/engine/physics/src/Enstatite.h
 Mineral.h
 ../components/engine/physics/src/Mineral.h
+
+../components/engine/physics/src/Material.h
+string
+../components/engine/physics/src/string
 
 ../components/engine/physics/src/Mineral.h
 iostream
@@ -29,4 +37,6 @@ iostream
 -
 Cataclysm.h
 -
+Building.h
+C:/Users/Marcin/CLionProjects/project_cataclysm/components/executable/src/Building.h
 

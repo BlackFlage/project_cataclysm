@@ -197,6 +197,33 @@ src/Enstatite.cpp.s:
 	cd /d C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f components\engine\physics\CMakeFiles\PHYSICS.dir\build.make components/engine/physics/CMakeFiles/PHYSICS.dir/src/Enstatite.cpp.s
 .PHONY : src/Enstatite.cpp.s
 
+src/Material.obj: src/Material.cpp.obj
+
+.PHONY : src/Material.obj
+
+# target to build an object file
+src/Material.cpp.obj:
+	cd /d C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f components\engine\physics\CMakeFiles\PHYSICS.dir\build.make components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.obj
+.PHONY : src/Material.cpp.obj
+
+src/Material.i: src/Material.cpp.i
+
+.PHONY : src/Material.i
+
+# target to preprocess a source file
+src/Material.cpp.i:
+	cd /d C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f components\engine\physics\CMakeFiles\PHYSICS.dir\build.make components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.i
+.PHONY : src/Material.cpp.i
+
+src/Material.s: src/Material.cpp.s
+
+.PHONY : src/Material.s
+
+# target to generate assembly for a file
+src/Material.cpp.s:
+	cd /d C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f components\engine\physics\CMakeFiles\PHYSICS.dir\build.make components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.s
+.PHONY : src/Material.cpp.s
+
 src/Mineral.obj: src/Mineral.cpp.obj
 
 .PHONY : src/Mineral.obj
@@ -239,6 +266,9 @@ help:
 	@echo ... src/Enstatite.obj
 	@echo ... src/Enstatite.i
 	@echo ... src/Enstatite.s
+	@echo ... src/Material.obj
+	@echo ... src/Material.i
+	@echo ... src/Material.s
 	@echo ... src/Mineral.obj
 	@echo ... src/Mineral.i
 	@echo ... src/Mineral.s

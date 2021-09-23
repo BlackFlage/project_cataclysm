@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PHYSICS.dir/src/Building.cpp.obj"
   "CMakeFiles/PHYSICS.dir/src/Enstatite.cpp.obj"
+  "CMakeFiles/PHYSICS.dir/src/Material.cpp.obj"
   "CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj"
   "libPHYSICS.a"
   "libPHYSICS.pdb"

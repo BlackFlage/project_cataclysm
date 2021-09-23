@@ -103,10 +103,24 @@ components/engine/physics/CMakeFiles/PHYSICS.dir/src/Enstatite.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PHYSICS.dir/src/Enstatite.cpp.s"
 	cd /d C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\components\engine\physics && C:\MinGW-8.1.0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcin\CLionProjects\project_cataclysm\components\engine\physics\src\Enstatite.cpp -o CMakeFiles\PHYSICS.dir\src\Enstatite.cpp.s
 
+components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.obj: components/engine/physics/CMakeFiles/PHYSICS.dir/flags.make
+components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.obj: components/engine/physics/CMakeFiles/PHYSICS.dir/includes_CXX.rsp
+components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.obj: ../components/engine/physics/src/Material.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.obj"
+	cd /d C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\components\engine\physics && C:\MinGW-8.1.0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PHYSICS.dir\src\Material.cpp.obj -c C:\Users\Marcin\CLionProjects\project_cataclysm\components\engine\physics\src\Material.cpp
+
+components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PHYSICS.dir/src/Material.cpp.i"
+	cd /d C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\components\engine\physics && C:\MinGW-8.1.0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Marcin\CLionProjects\project_cataclysm\components\engine\physics\src\Material.cpp > CMakeFiles\PHYSICS.dir\src\Material.cpp.i
+
+components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PHYSICS.dir/src/Material.cpp.s"
+	cd /d C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\components\engine\physics && C:\MinGW-8.1.0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Marcin\CLionProjects\project_cataclysm\components\engine\physics\src\Material.cpp -o CMakeFiles\PHYSICS.dir\src\Material.cpp.s
+
 components/engine/physics/CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj: components/engine/physics/CMakeFiles/PHYSICS.dir/flags.make
 components/engine/physics/CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj: components/engine/physics/CMakeFiles/PHYSICS.dir/includes_CXX.rsp
 components/engine/physics/CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj: ../components/engine/physics/src/Mineral.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object components/engine/physics/CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object components/engine/physics/CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj"
 	cd /d C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\components\engine\physics && C:\MinGW-8.1.0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PHYSICS.dir\src\Mineral.cpp.obj -c C:\Users\Marcin\CLionProjects\project_cataclysm\components\engine\physics\src\Mineral.cpp
 
 components/engine/physics/CMakeFiles/PHYSICS.dir/src/Mineral.cpp.i: cmake_force
@@ -121,6 +135,7 @@ components/engine/physics/CMakeFiles/PHYSICS.dir/src/Mineral.cpp.s: cmake_force
 PHYSICS_OBJECTS = \
 "CMakeFiles/PHYSICS.dir/src/Building.cpp.obj" \
 "CMakeFiles/PHYSICS.dir/src/Enstatite.cpp.obj" \
+"CMakeFiles/PHYSICS.dir/src/Material.cpp.obj" \
 "CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj"
 
 # External object files for target PHYSICS
@@ -128,10 +143,11 @@ PHYSICS_EXTERNAL_OBJECTS =
 
 components/engine/physics/libPHYSICS.a: components/engine/physics/CMakeFiles/PHYSICS.dir/src/Building.cpp.obj
 components/engine/physics/libPHYSICS.a: components/engine/physics/CMakeFiles/PHYSICS.dir/src/Enstatite.cpp.obj
+components/engine/physics/libPHYSICS.a: components/engine/physics/CMakeFiles/PHYSICS.dir/src/Material.cpp.obj
 components/engine/physics/libPHYSICS.a: components/engine/physics/CMakeFiles/PHYSICS.dir/src/Mineral.cpp.obj
 components/engine/physics/libPHYSICS.a: components/engine/physics/CMakeFiles/PHYSICS.dir/build.make
 components/engine/physics/libPHYSICS.a: components/engine/physics/CMakeFiles/PHYSICS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libPHYSICS.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libPHYSICS.a"
 	cd /d C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\components\engine\physics && $(CMAKE_COMMAND) -P CMakeFiles\PHYSICS.dir\cmake_clean_target.cmake
 	cd /d C:\Users\Marcin\CLionProjects\project_cataclysm\cmake-build-debug-mingw\components\engine\physics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PHYSICS.dir\link.txt --verbose=$(VERBOSE)
 
