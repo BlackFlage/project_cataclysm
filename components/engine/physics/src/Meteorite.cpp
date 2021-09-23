@@ -36,4 +36,7 @@ namespace ctm{
                     M_PI * pow(_diameter/2,3))/3;
         }
     }
+    void Meteorite::PrintObject() {
+        std::cout <<"Meteoryt \n";
+    }
 }

@@ -9,5 +9,6 @@
 #include "Mineral.h"
 #include "Enstatite.h"
 #include "Meteorite.h"
+#include "PhysicalObject.h"
 
 #endif //CATACLYSM_CATACLYSM_H
