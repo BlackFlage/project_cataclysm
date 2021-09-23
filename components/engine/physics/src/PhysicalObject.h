@@ -15,6 +15,7 @@ namespace ctm {
         std::vector <double> get_A();
         std::vector <double> get_Position();
         void change_V();
+        void change_Position();
         void set_V(double a_x, double a_y, double a_z);
         void set_A(double a_x, double a_y , double a_z);
         void set_Position(double a_x, double a_y, double a_z);
