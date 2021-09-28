@@ -9,7 +9,6 @@
 namespace ctm {
 	class Building : public Material {
 		private:
-
 			struct Coordinates{
 				double x;
 				double y;
