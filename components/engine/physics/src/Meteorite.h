@@ -6,7 +6,6 @@
 #define CATACLYSM_METEORITE_H
 
 #include <vector>
-#include "Mineral.h"
 #include "PhysicalObject.h"
 #include "reactphysics3d/reactphysics3d.h"
 
@@ -15,13 +14,13 @@ class Meteorite : public PhysicalObject {
     public:
     reactphysics3d::PhysicsCommon x;
 
-    Meteorite(std::vector<std::pair<double,Mineral*>> a_composition, double a_diameter);
+    Meteorite(std::vector<std::pair<double,reactphysics3d::Material*>> a_composition, double a_diameter);
         double get_mass() const;
         double get_diameter() const;
         void set_mass();
         void PrintObject();
     private:
-        std::vector<std::pair<double,Mineral*>> _composition;
+        std::vector<std::pair<double,reactphysics3d::Material*>> _composition;
         double _diameter;
         bool check_composition();
     };

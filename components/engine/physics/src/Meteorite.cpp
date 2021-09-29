@@ -18,7 +18,7 @@ namespace ctm{
         }
         return size == 100.0;
     }
-    Meteorite::Meteorite(std::vector<std::pair<double, Mineral*>> a_composition, double a_diameter) {
+    Meteorite::Meteorite(std::vector<std::pair<double, reactphysics3d::Material*>> a_composition, double a_diameter) {
         _composition = a_composition;
         _diameter = a_diameter;
         if(check_composition()){
@@ -32,7 +32,7 @@ namespace ctm{
     void Meteorite::set_mass(){
         _mass =0.0;
         for(const auto& comp : _composition){
-            _mass = _mass + (comp.first/100 * comp.second->get_density() * 4 *
+            _mass = _mass + (comp.first/100 * comp.second->getMassDensity() * 4 *
                     M_PI * pow(_diameter/2,3))/3;
         }
     }

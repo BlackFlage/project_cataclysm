@@ -4,7 +4,7 @@
 
 #ifndef CATACLYSM_BUILDING_H
 #define CATACLYSM_BUILDING_H
-#include "Material.h"
+/*
 
 namespace ctm {
 	class Building : public Material {
@@ -31,5 +31,5 @@ namespace ctm {
 	};
 }
 
-
+*/
 #endif //CATACLYSM_BUILDING_H

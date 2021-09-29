@@ -6,8 +6,6 @@
 #define CATACLYSM_CATACLYSM_H
 
 #include "Application.h"
-#include "Mineral.h"
-#include "Enstatite.h"
 #include "Meteorite.h"
 #include "PhysicalObject.h"
 #include "Logger.h"
