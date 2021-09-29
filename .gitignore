@@ -1,5 +1,6 @@
 # Build directories
 cmake-build-debug/
+cmake-build-debug-mingw/
 components/executable/cmake-build-debug
 components/engine/cmake-build-debug
 components/engine/vendor/GLAD/cmake-build-debug
