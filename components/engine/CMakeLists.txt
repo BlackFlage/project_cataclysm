@@ -18,7 +18,9 @@ set(${PROJECT_NAME}_INCLUDE_DIRS ${PROJECT_SOURCE_DIR} CACHE INTERNAL "${PROJECT
 #PHYSICS 3D
 set(ReactPhysics3D_DIR ${CMAKE_CURRENT_SOURCE_DIR}/vendor/reactphysics3d)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/vendor/reactphysics3d/include)
-#find_package(ReactPhysics3D REQUIRED)
+
+# CORE
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/core/src)
 
 # PHYSICS and GRAPHICS
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/graphics)
@@ -41,7 +43,7 @@ add_subdirectory(${VENDOR_PATH}/ImGui)
 target_link_libraries(${PROJECT_NAME} PRIVATE IMGUI)
 
 # spdlog stuff
-target_include_directories(${PROJECT_NAME} PRIVATE ${VENDOR_PATH}/spdlog/include)
+target_include_directories(${PROJECT_NAME} PUBLIC ${VENDOR_PATH}/spdlog/include)
 
 # stb_image stuff
-target_include_directories(${PROJECT_NAME} PRIVATE ${VENDOR_PATH}/stb_image)
+target_include_directories(${PROJECT_NAME} PUBLIC ${VENDOR_PATH}/stb_image)
