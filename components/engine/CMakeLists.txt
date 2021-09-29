@@ -15,6 +15,11 @@ target_link_libraries(${PROJECT_NAME})
 
 set(${PROJECT_NAME}_INCLUDE_DIRS ${PROJECT_SOURCE_DIR} CACHE INTERNAL "${PROJECT_NAME}: Include Directiories" FORCE)
 
+#PHYSICS 3D
+set(ReactPhysics3D_DIR ${CMAKE_CURRENT_SOURCE_DIR}/vendor/reactphysics3d)
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/vendor/reactphysics3d/include)
+#find_package(ReactPhysics3D REQUIRED)
+
 # PHYSICS and GRAPHICS
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/graphics)
 target_link_libraries(${PROJECT_NAME} PRIVATE GRAPHICS)
