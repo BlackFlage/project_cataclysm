@@ -10,6 +10,5 @@
 #include "Enstatite.h"
 #include "Meteorite.h"
 #include "PhysicalObject.h"
-#include "Logger.h"
 
 #endif //CATACLYSM_CATACLYSM_H

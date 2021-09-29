@@ -5,11 +5,16 @@
 #ifndef CATACLYSM_APPLICATION_H
 #define CATACLYSM_APPLICATION_H
 
+#include "Logger.h"
 
-class Application
+namespace ctm
 {
-
-};
+    class Application
+    {
+    public:
+        Application();
+    };
+}
 
 
 #endif //CATACLYSM_APPLICATION_H

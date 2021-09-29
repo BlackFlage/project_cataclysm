@@ -3,3 +3,28 @@
 //
 
 #include "Logger.h"
+#include "spdlog/sinks/stdout_color_sinks.h"
+
+namespace ctm
+{
+    std::shared_ptr<spdlog::logger> Logger::s_core_logger;
+    bool Logger::s_initialized = false;
+
+    void ctm::Logger::initialize()
+    {
+
+        if(!s_initialized)
+        {
+            spdlog::set_pattern("%^[%T] %n: %v%$");
+
+            s_core_logger = spdlog::stdout_color_mt("LOGGER");
+            s_initialized = true;
+
+            CTM_CORE_INFO("LOGGER SUCCESSFULLY INITIALIZED.");
+        }
+        else
+        {
+            CTM_CORE_WARNING("LOGGER ALREADY INITIALIZED!");
+        }
+    }
+}
