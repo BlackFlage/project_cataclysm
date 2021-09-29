@@ -4,6 +4,7 @@
 
 #include "Logger.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
+#include "Macro.h"
 
 namespace ctm
 {
@@ -12,19 +13,13 @@ namespace ctm
 
     void ctm::Logger::initialize()
     {
+        CTM_ASSERT(!s_initialized, "Logger already initialized!");
 
-        if(!s_initialized)
-        {
-            spdlog::set_pattern("%^[%T] %n: %v%$");
+        spdlog::set_pattern("%^[%T] %n: %v%$");
 
-            s_core_logger = spdlog::stdout_color_mt("LOGGER");
-            s_initialized = true;
+        s_core_logger = spdlog::stdout_color_mt("LOGGER");
+        s_initialized = true;
 
-            CTM_CORE_INFO("LOGGER SUCCESSFULLY INITIALIZED.");
-        }
-        else
-        {
-            CTM_CORE_WARNING("LOGGER ALREADY INITIALIZED!");
-        }
+        CTM_CORE_INFO("LOGGER SUCCESSFULLY INITIALIZED.");
     }
 }

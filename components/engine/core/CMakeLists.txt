@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(CORE_HEADERS
         "src/Logger.h"
+        "src/Macro.h"
         )
 
 set(CORE_SOURCES
