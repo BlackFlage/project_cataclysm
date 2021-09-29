@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SANDBOX.dir/objects.a
-C:\MinGW-8.1.0\bin\ar.exe cr CMakeFiles\SANDBOX.dir/objects.a @CMakeFiles\SANDBOX.dir\objects1.rsp
-C:\MinGW-8.1.0\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\SANDBOX.dir/objects.a -Wl,--no-whole-archive -o SANDBOX.exe -Wl,--out-implib,libSANDBOX.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SANDBOX.dir\linklibs.rsp
