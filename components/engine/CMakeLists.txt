@@ -21,6 +21,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/ve
 
 # CORE
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/core/src)
+target_link_libraries(${PROJECT_NAME} PUBLIC CORE)
 
 # PHYSICS and GRAPHICS
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/graphics)

@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(CORE_HEADERS
         "src/Logger.h"
+        "src/Macro.h"
         )
 
 set(CORE_SOURCES
@@ -12,5 +13,6 @@ set(CORE_SOURCES
         )
 
 add_library(${PROJECT_NAME} STATIC ${CORE_HEADERS} ${CORE_SOURCES})
+target_link_libraries(${PROJECT_NAME})
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../vendor/spdlog/include)

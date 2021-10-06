@@ -8,5 +8,12 @@ if(WIN32)
     set(CMAKE_SHARED_LIBRARY_PREFIX "")
 endif()
 
+if(ENABLE_ASSERTS)
+    add_compile_definitions(CTM_ENABLE_ASSERTS)
+    message("Asserts enabled.")
+else()
+    message(STATUS "Asserts not enabled.")
+endif()
+
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/components/engine)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/components/executable)

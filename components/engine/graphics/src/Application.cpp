@@ -3,3 +3,8 @@
 //
 
 #include "Application.h"
+
+ctm::Application::Application()
+{
+    ctm::Logger::initialize();
+}

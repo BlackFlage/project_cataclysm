@@ -18,5 +18,6 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../core CORE)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../vendor/reactphysics3d/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../core/src)
+
 target_link_libraries(${PROJECT_NAME} PUBLIC reactphysics3d)
 target_link_libraries(${PROJECT_NAME} PUBLIC CORE)
