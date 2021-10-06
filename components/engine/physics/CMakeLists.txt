@@ -3,15 +3,10 @@ project(PHYSICS)
 
 set(PHYSICS_HEADERS
         "src/Building.h"
-        "src/Enstatite.h"
-        "src/Material.h"
-        "src/Mineral.h"
         "src/PhysicalObject.h")
 
 set(PHYSICS_SOURCES
         "src/Building.cpp"
-        "src/Enstatite.cpp"
-        "src/Material.cpp"
         "src/Meteorite.cpp"
         "src/PhysicalObject.cpp")
 

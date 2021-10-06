@@ -1,7 +1,7 @@
 //
 // Created by Marcin Drutko on 2021-09-16.
 //
-
+/*
 #include "Building.h"
 #include "iostream"
 
@@ -44,4 +44,4 @@ namespace ctm {
 	void Building::set_height(double a_height) {
 		m_height = a_height;
 	}
-}
+}*/

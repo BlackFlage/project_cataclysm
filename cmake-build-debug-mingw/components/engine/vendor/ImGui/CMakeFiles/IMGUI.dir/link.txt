@@ -1,2 +1,0 @@
-C:\MinGW-8.1.0\bin\ar.exe qc libIMGUI.a CMakeFiles/IMGUI.dir/files/imgui.cpp.obj CMakeFiles/IMGUI.dir/files/imgui_demo.cpp.obj CMakeFiles/IMGUI.dir/files/imgui_draw.cpp.obj CMakeFiles/IMGUI.dir/files/imgui_tables.cpp.obj CMakeFiles/IMGUI.dir/files/imgui_widgets.cpp.obj
-C:\MinGW-8.1.0\bin\ranlib.exe libIMGUI.a

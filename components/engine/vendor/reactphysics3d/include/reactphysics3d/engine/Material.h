@@ -58,17 +58,10 @@ class Material {
 
         // -------------------- Methods -------------------- //
 
-        /// Constructor
-        Material(decimal frictionCoefficient, decimal rollingResistance, decimal bounciness,
-                 decimal massDensity = decimal(1.0));
-
-        /// Copy-constructor
+    /// Copy-constructor
         Material(const Material& material);
 
-        /// Destructor
-        ~Material() = default;
-
-    public :
+public :
 
         // -------------------- Methods -------------------- //
 
@@ -105,6 +98,13 @@ class Material {
         // ---------- Friendship ---------- //
 
         friend class Collider;
+
+/// Constructor
+Material(decimal frictionCoefficient, decimal rollingResistance, decimal bounciness,
+         decimal massDensity = decimal(1.0));
+
+/// Destructor
+~Material() = default;
 };
 
 // Return the bounciness

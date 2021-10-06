@@ -1,2 +1,0 @@
-C:\MinGW-8.1.0\bin\ar.exe qc libENGINE.a CMakeFiles/ENGINE.dir/Initializer.cpp.obj
-C:\MinGW-8.1.0\bin\ranlib.exe libENGINE.a
